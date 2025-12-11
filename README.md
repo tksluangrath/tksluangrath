@@ -36,15 +36,17 @@ Outside of data science, I enjoy breakdancing, where creativity and precision me
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Featured Projects
 
-<div align="center">
-  
-![](https://github-readme-stats.vercel.app/api?username=tksluangrath&theme=transparent&hide_border=false&include_all_commits=false&count_private=false)
+### [Fraud Detection Analytics Pipeline](https://github.com/tksluangrath/fraud-detection-app)
+🔍 Production-ready ML pipeline processing 6.3M+ financial transactions with 95% fraud detection recall
+- **Tech**: Python, scikit-learn, Pandas, Streamlit
+- **Impact**: Comprehensive data quality validation achieving 95% overall accuracy
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tksluangrath&theme=transparent&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-</div>
+### [Pandas vs Polars Performance Benchmark](https://github.com/tksluangrath/pandas-vs-polars-nyc-taxi)
+⚡ Comprehensive comparison of DataFrame libraries using 50K NYC taxi records
+- **Tech**: Python, Pandas, Polars, Matplotlib
+- **Findings**: 15× faster CSV loading with Polars, 10% memory efficiency gains
 
 ---
 
