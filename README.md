@@ -1,65 +1,40 @@
-# Hi there, I'm Terrance 👋
+# Hi, I'm Terrance 👋
 
-## 💫 About Me
+I'm a grad student and data scientist who likes solving real problems with machine learning and statistics. Currently doing research at UVA's DART Lab on how large language models can help automate security operations and threat detection.
 
-🌟 **Graduate Student Researcher & Data Scientist** with a strong foundation in applied mathematics and a passion for leveraging AI and machine learning to solve real-world problems.
+## Background
 
-🎓 **Education**
-- M.S. in Data Science – University of Virginia (Class of 2026, 4.0 GPA)
-- B.S. in Applied Mathematics – James Madison University (2024)
+I'm getting my M.S. in Data Science at UVA (graduating 2026) and have a B.S. in Applied Mathematics from James Madison University. My work spans machine learning, statistical modeling, fraud detection, and cybersecurity applications. Right now I'm particularly interested in how AI can make security operations more efficient.
 
-🔬 **Current Research**  
-Conducting research at UVA's DART Lab, exploring how large language models can enhance security operations and automate threat detection workflows.
+Outside of data science, I breakdance - there's something satisfying about both finding patterns in datasets and nailing a new move.
 
-💡 **Expertise**  
-Machine learning • Statistical modeling • Big data analysis • Fraud detection • Humanitarian analytics • Cybersecurity applications
+## What I Work With
 
-⚡ **Fun Fact**  
-Outside of data science, I enjoy breakdancing, where creativity and precision meet, much like finding patterns in complex datasets!
+**Languages:** Python, R, SQL, SAS, LaTeX
 
----
+**Main tools:** Pandas, NumPy, scikit-learn, PyTorch, Matplotlib, Tidyverse (ggplot2 for R), Git, Jupyter, Azure
 
-## 💻 Tech Stack
+**What I focus on:** Machine learning (supervised, deep learning, Bayesian), big data analysis, statistical modeling, feature engineering, time series analysis, data visualization
 
-### Languages
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%2307405e.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SAS](https://img.shields.io/badge/SAS-0066A3?style=for-the-badge&logo=sas&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-
-### Data Science & ML Libraries
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Tidyverse](https://img.shields.io/badge/tidyverse-%231A162D.svg?style=for-the-badge&logo=tidyverse&logoColor=white) ![ggplot2](https://img.shields.io/badge/ggplot2-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-
-### Tools & Platforms
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Jupyter](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) ![SPSS](https://img.shields.io/badge/SPSS-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
-
-### Specializations
-**Machine Learning & AI**: Supervised Learning • Deep Learning • Bayesian ML • Feature Engineering • Model Evaluation  
-**Data Science**: Big Data Analysis • Data Wrangling • Statistical Analysis • EDA • Data Visualization • Hypothesis Testing • Time Series Analysis
-
----
-
-## 🚀 Featured Projects
+## Projects I've Built
 
 ### [Fraud Detection Analytics Pipeline](https://github.com/tksluangrath/fraud-detection-app)
-🔍 Production-ready ML pipeline processing 6.3M+ financial transactions with 95% fraud detection recall
-- **Tech**: Python, scikit-learn, Pandas, Streamlit
-- **Impact**: Comprehensive data quality validation achieving 95% overall accuracy
+Built a production-ready ML pipeline that processes 6.3M+ financial transactions with 95% fraud detection recall. Includes comprehensive data validation and a Streamlit interface for real-time predictions.
 
 ### [Pandas vs Polars Performance Benchmark](https://github.com/tksluangrath/pandas-vs-polars-nyc-taxi)
-⚡ Comprehensive comparison of DataFrame libraries using 50K NYC taxi records
-- **Tech**: Python, Pandas, Polars, Matplotlib
-- **Findings**: 15× faster CSV loading with Polars, 10% memory efficiency gains
+Compared DataFrame libraries using 50K NYC taxi records. Found that Polars loads CSVs 15× faster and uses 10% less memory, though performance differences narrow for smaller operations.
+
+### [International Students' Mental Health Analysis](https://github.com/tksluangrath/international-students-mental-health)
+SQL-based analysis of how length of stay impacts mental health for international students in Japan. Found that depression peaks in year 3 (not year 1) and cultural stress increases over time rather than decreasing.
+
+### [AEP Energy Forecasting with XGBoost](https://github.com/tksluangrath/aep-energy-forecasting)
+Forecasted hourly electricity demand using 14 years of data. Learned a lot about XGBoost's strengths and limitations for time series - it handles non-linear patterns well but struggles with extreme weather events without external features.
+
+## Get in Touch
+
+**📧 Email:** [tksluangrath@gmail.com](mailto:tksluangrath@gmail.com)  
+**💼 LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/terranceluangrath/)
 
 ---
 
-## 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/terranceluangrath/) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tksluangrath@gmail.com)
-
----
-
-<div align="center">
-  
-**💡 "Data is the new oil, but insights are the refined fuel."**
-
-⭐ Feel free to explore my repositories and don't hesitate to reach out for collaboration!
-
-</div>
+Feel free to check out my repos or reach out if you want to collaborate on something.
