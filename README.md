@@ -9,7 +9,7 @@ Outside of data science, I breakdance - there's something satisfying about both 
 ## What I Work With
 **Languages:** Python, R, SQL, SAS, LaTeX
 
-**Main tools:** Pandas, NumPy, scikit-learn, PyTorch, Matplotlib, Tidyverse (ggplot2 for R), FastAPI, React Native, Git, Jupyter, Azure
+**Main tools:** Pandas, NumPy, scikit-learn, PyTorch, Matplotlib, Tidyverse (ggplot2 for R), FastAPI, Git, Jupyter, Azure
 
 **What I focus on:** Machine learning (supervised, deep learning, Bayesian), audio classification, big data analysis, statistical modeling, feature engineering, time series analysis, data visualization
 
@@ -27,7 +27,6 @@ Built at HoosHack 2026 in the Health and Wellness category. An Oregon Trail-them
 ## Get in Touch
 **Author: Terrance Luangrath**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/terranceluangrath/) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/tksluangrath)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/terranceluangrath/)
 ---
 Feel free to check out my repos or reach out if you want to collaborate on something.
