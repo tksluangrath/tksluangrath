@@ -27,6 +27,7 @@ Built at HoosHack 2026 in the Health and Wellness category. An Oregon Trail-them
 ## Get in Touch
 **Author: Terrance Luangrath**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/terranceluangrath/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/terranceluangrath/) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tksluangrath@gmail.com)
+
 ---
 Feel free to check out my repos or reach out if you want to collaborate on something.
