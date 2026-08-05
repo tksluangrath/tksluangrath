@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Draw the profile README's stat graphics from the GitHub GraphQL API.
 
-No third-party services and no dependencies â standard library only.
+No third-party services and no dependencies -- standard library only.
 
 Outputs, all sharing one visual language with ascii.svg (the portrait):
   stats.svg   hero total + weekly sparkline
@@ -29,10 +29,10 @@ from datetime import date, datetime, timedelta, timezone
 API = "https://api.github.com/graphql"
 
 # Two things are pinned for determinism, both learned the hard way:
-#  * the contribution window, to whole UTC days â otherwise "the past year" is
+#  * the contribution window, to whole UTC days -- otherwise "the past year" is
 #    measured from request time and days drift between week buckets, moving the
 #    sparkline a fraction of a pixel and committing noise every night;
-#  * privacy: PUBLIC on repositories â otherwise a personal token sees private
+#  * privacy: PUBLIC on repositories -- otherwise a personal token sees private
 #    repos and a workflow token doesn't, so language totals disagree.
 QUERY = """
 query($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -73,7 +73,7 @@ def face(filename, weight):
 
     An external font URL cannot work here: these SVGs are loaded through <img>,
     and browsers refuse to fetch subresources for an image document. Inlining is
-    also what pins the advance width â the portrait's grid assumes 0.600 em, and
+    also what pins the advance width -- the portrait's grid assumes 0.600 em, and
     a viewer whose default monospace is narrower would otherwise see it squeezed.
     """
     with open(os.path.join(FONT_DIR, filename), "rb") as f:
@@ -84,7 +84,7 @@ def face(filename, weight):
 
 
 def font_text():
-    """Basic latin, both weights â for the data graphics."""
+    """Basic latin, both weights -- for the data graphics."""
     return face("jbmono-400.woff2", 400) + face("jbmono-600.woff2", 600)
 
 
@@ -137,7 +137,7 @@ def pretty(iso):
 def streaks(days):
     """Current and longest runs of days with at least one contribution.
 
-    A zero on the final day doesn't break the current streak â the day isn't
+    A zero on the final day doesn't break the current streak -- the day isn't
     over yet. Any earlier zero does.
     """
     best = dict(length=0, start=None, end=None)
