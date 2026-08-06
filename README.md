@@ -18,26 +18,34 @@
 
 <img src="./hd-background.svg" width="620" alt="background"/>
 
-> Data scientist who likes solving real problems with machine learning<br>
-> and statistics.
+> Data scientist who cares why a model works, not just<br>
+> whether it does.
 
 I hold an M.S. in Data Science from UVA (August 2026) and a B.S. in<br>
-Applied Mathematics from James Madison University. My work spans machine<br>
-learning, statistical modeling, and fraud detection, with a recent focus<br>
-on deep learning for audio classification. Outside of data science, I<br>
-breakdance &mdash; there's something satisfying about both finding patterns in<br>
-datasets and nailing a new move.
+Applied Mathematics from James Madison University. Lately I've been deep<br>
+in agent tooling: fine-tuning an LLM with LoRA to make one correct tool<br>
+call instead of hallucinating one, writing MCP servers that reconcile<br>
+real inference cost, and building local-only NLP pipelines that<br>
+transcribe, summarize, and graph what recurs across hours of video.<br>
+Outside of data science, I breakdance &mdash; there's something satisfying<br>
+about both finding patterns in datasets and nailing a new move.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>python &nbsp; r &nbsp; sql &nbsp; sas &nbsp; latex &nbsp; pandas &nbsp; numpy &nbsp; scikit-learn &nbsp; pytorch &nbsp; matplotlib &nbsp; fastapi &nbsp; git &nbsp; jupyter &nbsp; azure</samp>
+<samp>python &nbsp; pytorch &nbsp; transformers &nbsp; peft/lora &nbsp; mcp &nbsp; langchain &nbsp; spacy &nbsp; pyspark &nbsp; neo4j &nbsp; ollama &nbsp; sql &nbsp; fastapi &nbsp; git &nbsp; azure</samp>
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
-**[llm-cost-carbon](https://github.com/tksluangrath/llm-cost-carbon)** &nbsp;&middot;&nbsp; <samp>python, mcp</samp><br>
+**[LLM Cost Ledger](https://github.com/tksluangrath/llm-cost-carbon)** &nbsp;&middot;&nbsp; <samp>python, mcp</samp><br>
 MCP server that answers what an LLM call actually cost, reconciling<br>
 ccusage-captured usage logs from Claude Code, Codex, OpenCode, and Amp.<br>
 Local-only: no proxy, no cloud infrastructure, no telemetry.
+
+**[Podscope](https://github.com/tksluangrath/podscope)** &nbsp;&middot;&nbsp; <samp>python, pyspark, neo4j</samp><br>
+Local NLP pipeline that transcribes YouTube videos, segments them by<br>
+topic, summarizes each two ways, extracts entities, and graphs what<br>
+recurs across a channel. No paid APIs: faster-whisper and a local Ollama<br>
+model do the work a hosted API usually would.
 
 **[Frequency-Based Speech Isolation for Keyword Spotting](https://github.com/tksluangrath/ds6050-audio-projects)** &nbsp;&middot;&nbsp; <samp>python, pytorch</samp><br>
 CNN vs. Audio Spectrogram Transformer for keyword spotting under noisy<br>
